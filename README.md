@@ -16,7 +16,7 @@ Glue is the culmination of my ~5 years of full-stack web development. It's my ul
 2. Add glue remote
 
 ```bash
-git remote add glue https://github.com/jay-joo-code/glue2-root.git
+git remote add glue https://github.com/jay-joo-code/glue3-root.git
 git fetch --all
 git switch -c glue-main glue/main
 ```
@@ -51,9 +51,7 @@ git push glue glue-main:main
 
 ## Backend
 
-The entire backend is handled by Pocketbase deployed for free on Fly.io. The development speed is significantly faster, since 99% of backend development is handled by Pocketbase.
-
-https://github.com/pocketbase/pocketbase/discussions/537
+The entire backend is handled by Supbase. 
 
 ## Sentry integration
 
