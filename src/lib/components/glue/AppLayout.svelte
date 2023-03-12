@@ -62,29 +62,18 @@
 						</div>
 
 						<!-- right side menu -->
-						<div class="flex flex-1 justify-center">
+						<div class="flex flex-1 justify-end">
 							<div class="hidden md:block">
 								<div class="menu menu-horizontal p-2">
 									{#if PUBLIC_NAVS?.length > 0}
 										{#each PUBLIC_NAVS as nav}
-											<li class="font-bold"><a href={nav.path}>{nav.label}</a></li>
+											<li class="font-semibold"><a href={nav.path}>{nav.label}</a></li>
 										{/each}
 									{/if}
 								</div>
 							</div>
 						</div>
-						<div class="flex-none">
-							<div class="hidden md:block">
-								<div class="menu menu-horizontal p-2">
-									{#if PUBLIC_NAVS?.length > 0}
-										{#each PUBLIC_NAVS as nav}
-											<li class="font-medium"><a href={nav.path}>{nav.label}</a></li>
-										{/each}
-									{/if}
-								</div>
-							</div>
-							<Auth />
-						</div>
+						<Auth />
 					</div>
 				</div>
 			</div>
