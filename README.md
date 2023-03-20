@@ -21,6 +21,10 @@ git fetch --all
 git switch -c glue-main glue/main
 ```
 
+## Gmail
+
+The format of the project gmail account is project.name.glue3@gmail.com.
+
 ## Add branch protection rules
 
 Add branch protection rules in the repo settings to force users to create a PR + get approval to commit changes to main.
@@ -51,7 +55,7 @@ git push glue glue-main:main
 
 ## Backend
 
-The entire backend is handled by Supbase. 
+The entire backend is handled by Supbase.
 
 ## Sentry integration
 
