@@ -23,7 +23,7 @@ git switch -c glue-main glue/main
 
 ## Gmail
 
-The format of the project gmail account is project.name.team@gmail.com.
+The format of the project gmail account is name.project.team@gmail.com
 
 ## Add branch protection rules
 
