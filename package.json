@@ -52,6 +52,7 @@
 		"highlight-words": "^1.2.1",
 		"just-debounce-it": "^3.2.0",
 		"meilisearch": "^0.30.0",
+		"openai": "^3.2.1",
 		"pocketbase": "^0.9.1",
 		"showdown": "^2.1.0",
 		"universal-cookie": "^4.0.4"
