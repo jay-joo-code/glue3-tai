@@ -18,6 +18,7 @@
 		"@tailwindcss/line-clamp": "^0.4.2",
 		"@tailwindcss/typography": "^0.5.8",
 		"@types/showdown": "^2.0.0",
+		"@types/stopword": "^2.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"autoprefixer": "^10.4.13",
@@ -49,12 +50,16 @@
 		"daisyui": "^2.46.0",
 		"date-fns": "^2.29.3",
 		"date-picker-svelte": "^2.2.5",
+		"gpt3-tokenizer": "^1.1.5",
 		"highlight-words": "^1.2.1",
 		"just-debounce-it": "^3.2.0",
 		"meilisearch": "^0.30.0",
+		"natural": "^6.2.0",
 		"openai": "^3.2.1",
 		"pocketbase": "^0.9.1",
 		"showdown": "^2.1.0",
+		"snoowrap": "^1.23.0",
+		"stopword": "^2.0.8",
 		"universal-cookie": "^4.0.4"
 	}
 }
