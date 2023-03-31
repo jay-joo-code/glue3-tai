@@ -17,6 +17,8 @@
 	});
 </script>
 
-<AppLayout>
-	<slot />
-</AppLayout>
+<div class="bg-base-200">
+	<AppLayout>
+		<slot />
+	</AppLayout>
+</div>

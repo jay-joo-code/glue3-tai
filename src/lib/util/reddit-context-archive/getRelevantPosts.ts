@@ -1,4 +1,4 @@
-import processText from '$lib/util/processText';
+import processText from '$lib/util/reduceTokens';
 import snoowrap from 'snoowrap';
 import { REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT } from '$env/static/private';
 

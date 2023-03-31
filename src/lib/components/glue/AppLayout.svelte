@@ -26,7 +26,7 @@
 			<div bind:this={topAnchor} />
 
 			<!-- header -->
-			<div class="sticky top-0 z-30 flex w-full justify-center bg-base-100/95">
+			<div class="sticky top-0 z-30 flex w-full justify-center bg-base-200/95">
 				<div class="w-full max-w-4xl px-4">
 					<div class="navbar px-0">
 						<!-- mobile nav: hamburger -->
@@ -51,14 +51,14 @@
 
 						<!-- app name -->
 						<div>
-							<button>
+							<!-- <button>
 								<a href="/" class="btn-ghost btn px-0 text-xl normal-case"
 									>{APP_NAME}
 									{#if IS_BETA}
 										<span class="ml-1.5 text-base-content/60">beta</span>
 									{/if}
 								</a>
-							</button>
+							</button> -->
 						</div>
 
 						<!-- right side menu -->
@@ -73,7 +73,7 @@
 								</div>
 							</div>
 						</div>
-						<Auth />
+						<!-- <Auth /> -->
 					</div>
 				</div>
 			</div>
@@ -84,9 +84,9 @@
 				</div>
 
 				<!-- footer -->
-				<footer class="footer footer-center bg-base-100 py-8 text-base-content">
+				<footer class="footer footer-center py-8 text-base-content">
 					<div>
-						<p>{APP_NAME} © 2022</p>
+						<p>{APP_NAME} © 2023</p>
 					</div>
 				</footer>
 

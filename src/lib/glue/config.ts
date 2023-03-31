@@ -6,3 +6,4 @@ export const IS_GOOGLE_AUTH_ONLY = true;
 export const IS_ENFORCE_CORNELL_EMAIL = true;
 export const IS_BETA = true;
 export const SENTRY_DSN_PUBLIC = '';
+export const COLLEGE = 'cornell';
