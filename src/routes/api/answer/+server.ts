@@ -6,7 +6,8 @@ import { json } from '@sveltejs/kit';
 /** @type {import('./$types').RequestHandler} */
 export async function POST({ request }) {
 	try {
-		const { query, sources } = await request.json();
+		const { messages, sources } = await request.json();
+		const query = messages[messages.length - 1].content;
 		const prompt = sourcesToPrompt({ sources, query });
 		const stream = await OpenAIStream(prompt, OPENAI_API_KEY);
 		return new Response(stream);
